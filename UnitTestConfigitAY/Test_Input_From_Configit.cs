@@ -14,7 +14,7 @@ namespace UnitTestConfigitAY
             bl.Packages = new System.Collections.Generic.List<ISoftwarePackage>();
             bl.Packages.Add(new SoftwarePackage() { PackageName = "P1", PackageVersion = "42" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "P1",
@@ -36,7 +36,7 @@ namespace UnitTestConfigitAY
             bl.Packages = new System.Collections.Generic.List<ISoftwarePackage>();
             bl.Packages.Add(new SoftwarePackage() { PackageName = "A", PackageVersion = "1" });
          
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "A",
@@ -67,7 +67,7 @@ namespace UnitTestConfigitAY
             bl.Packages = new System.Collections.Generic.List<ISoftwarePackage>();
             bl.Packages.Add(new SoftwarePackage() { PackageName = "B", PackageVersion = "2" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "B",
@@ -103,7 +103,7 @@ namespace UnitTestConfigitAY
             bl.Packages = new System.Collections.Generic.List<ISoftwarePackage>();
             bl.Packages.Add(new SoftwarePackage() { PackageName = "B", PackageVersion = "1" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "B",
@@ -125,7 +125,7 @@ namespace UnitTestConfigitAY
             bl.Packages.Add(new SoftwarePackage() { PackageName = "A", PackageVersion = "2" });
             bl.Packages.Add(new SoftwarePackage() { PackageName = "B", PackageVersion = "2" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "A",
@@ -168,7 +168,7 @@ namespace UnitTestConfigitAY
             bl.Packages.Add(new SoftwarePackage() { PackageName = "A", PackageVersion = "2" });
             bl.Packages.Add(new SoftwarePackage() { PackageName = "B", PackageVersion = "2" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "A",
@@ -210,7 +210,7 @@ namespace UnitTestConfigitAY
             bl.Packages = new System.Collections.Generic.List<ISoftwarePackage>();
             bl.Packages.Add(new SoftwarePackage() { PackageName = "B", PackageVersion = "2" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "A",
@@ -242,7 +242,7 @@ namespace UnitTestConfigitAY
             bl.Packages.Add(new SoftwarePackage() { PackageName = "A", PackageVersion = "1" });
             bl.Packages.Add(new SoftwarePackage() { PackageName = "C", PackageVersion = "2" });
 
-            bl.Dependencies = new System.Collections.Generic.List<SoftwarePackageDependencie>();
+            bl.Dependencies = new System.Collections.Generic.List<ISoftwarePackageDependencie>();
             bl.Dependencies.Add(new SoftwarePackageDependencie()
             {
                 PackageName = "A",

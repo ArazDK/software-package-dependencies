@@ -17,9 +17,9 @@ namespace ConfigitAY
             {
                 if (item.Contains("input"))
                 {
-                    using (DataInput di = new DataInput())
+                    using (DataInputFile di = new DataInputFile())
                     {
-                        var data = di.GetFile(item);
+                        var data = di.GetData(item);
                         Console.WriteLine(item + " " + data.Check());
                     }
                 }

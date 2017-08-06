@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\DataInput.cs" />
+    <Compile Include="Data\DataInputFile.cs" />
+    <Compile Include="Data\IDataInput.cs" />
     <Compile Include="SoftwarePackage\ISoftwarePackage.cs" />
     <Compile Include="SoftwarePackage\ISoftwarePackageDependencie.cs" />
     <Compile Include="SoftwarePackage\SoftwarePackageDependencie.cs" />

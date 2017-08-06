@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace ConfigitAYLogic
 {
-   public class DataInput: IDisposable
+   public class DataInputFile : IDisposable, IDataInput
     {
 
-       public SoftwarePackageBL GetFile(string path)
+       public SoftwarePackageBL GetData(string path)
         {
             SoftwarePackageBL returnValue = new SoftwarePackageBL();
 
